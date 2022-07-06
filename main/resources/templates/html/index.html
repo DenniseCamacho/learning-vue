@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--    MOBILE VIEW-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learning Vue</title>
+    <!--    CSS LINK-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!--    BOOTSTRAP LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+
+<main>
+    <section>
+        <header><h1 v-html=""></h1></header>
+        This will be a vue project for practice.
+        <span id="doDisplay"></span>
+
+
+<!--Search-->
+        <br>
+        <label for="searchbar"><h1>Search:</h1></label>
+        <br>
+<!--Searchbar-->
+        <input type="text" id="searchbar" placeholder="Search Text Holder">
+        <button id="doSearchOnClick">Search Area</button>
+
+    </section>
+</main>
+
+
+
+
+
+
+
+<footer>
+    <div id="info"><a href=creds.html>creds</a></div>
+    <!--		icons?-->
+    <!--		https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML-->
+</footer>
+<!--SCRIPTS-->
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!--Load vue-->
+<!--//*.prod.js-->
+<script src="https://unpkg.com/vue@3/dist/vue.esm-browser.js" type="module"></script>
+<script src="keys.js"></script>
+<script src="../js/main.js" type="module"></script>
+</body>
+</html>
